@@ -44,7 +44,7 @@ const navItems = [
 
 function Navbar() {
   return (
-    <AppBar position="static" className="bg-black">
+    <AppBar position="static" sx={{ background: "black", color: "white" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Image src={logo} height={100} width={150} alt="logo" />
